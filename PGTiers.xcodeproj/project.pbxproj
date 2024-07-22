@@ -46,6 +46,7 @@
 		848124E52C297C97000CE666 /* CustomGradeMakerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848124E42C297C97000CE666 /* CustomGradeMakerViewModel.swift */; };
 		848124E72C297CAB000CE666 /* CustomGradeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848124E62C297CAB000CE666 /* CustomGradeCell.swift */; };
 		848124E92C297CB6000CE666 /* CustomGradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848124E82C297CB6000CE666 /* CustomGradesView.swift */; };
+		84F1B11C2C4E77C2007A81D8 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 84F1B11B2C4E77C2007A81D8 /* Localizable.xcstrings */; };
 		84F637E62C2ADA2E002E10B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F637E52C2ADA2E002E10B1 /* GoogleService-Info.plist */; };
 		84F637E82C2ADA3F002E10B1 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 84F637E72C2ADA3F002E10B1 /* loading.json */; };
 /* End PBXBuildFile section */
@@ -94,6 +95,9 @@
 		848124E42C297C97000CE666 /* CustomGradeMakerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradeMakerViewModel.swift; sourceTree = "<group>"; };
 		848124E62C297CAB000CE666 /* CustomGradeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradeCell.swift; sourceTree = "<group>"; };
 		848124E82C297CB6000CE666 /* CustomGradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradesView.swift; sourceTree = "<group>"; };
+		84F1B1192C4E77B6007A81D8 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		84F1B11A2C4E77B7007A81D8 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		84F1B11B2C4E77C2007A81D8 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		84F637E52C2ADA2E002E10B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		84F637E72C2ADA3F002E10B1 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		BED1E1F74C24D23B466E7F90 /* Pods-PGTiers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGTiers.release.xcconfig"; path = "Target Support Files/Pods-PGTiers/Pods-PGTiers.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 		8481247C2C2977C2000CE666 = {
 			isa = PBXGroup;
 			children = (
+				84F1B11B2C4E77C2007A81D8 /* Localizable.xcstrings */,
 				84F637E52C2ADA2E002E10B1 /* GoogleService-Info.plist */,
 				84F637E72C2ADA3F002E10B1 /* loading.json */,
 				848124AA2C297875000CE666 /* PrivacyInfo.xcprivacy */,
@@ -344,6 +349,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 8481247C2C2977C2000CE666;
 			productRefGroup = 848124862C2977C2000CE666 /* Products */;
@@ -365,6 +371,7 @@
 				84F637E82C2ADA3F002E10B1 /* loading.json in Resources */,
 				84F637E62C2ADA2E002E10B1 /* GoogleService-Info.plist in Resources */,
 				848124AB2C297875000CE666 /* PrivacyInfo.xcprivacy in Resources */,
+				84F1B11C2C4E77C2007A81D8 /* Localizable.xcstrings in Resources */,
 				848124902C2977C2000CE666 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +486,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8481248F2C2977C2000CE666 /* Base */,
+				84F1B1192C4E77B6007A81D8 /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -487,6 +495,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				848124942C2977C4000CE666 /* Base */,
+				84F1B11A2C4E77B7007A81D8 /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -499,6 +508,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -562,6 +572,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -642,7 +653,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PGTiers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -684,7 +695,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PGTiers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
